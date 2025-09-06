@@ -19,7 +19,7 @@ interface ProductCardProps {
 }
 
 export const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
-  // Get real food images from Unsplash with proper food-related search terms
+  // Get real food images from Unsplash with proper food-related search terms ...
   const getFoodImage = (productName: string, category: string) => {
     const foodImageMap = {
       'Masala Chai': 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=400&fit=crop&auto=format&q=80',
